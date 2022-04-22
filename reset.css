@@ -7,3 +7,19 @@
     font: inherit;
     font-family: 'IBM Plex Sans', sans-serif;
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(86, 132, 191, 0.4);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(86, 132, 191, 0.85);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(86, 132, 191, 0.3);
+}

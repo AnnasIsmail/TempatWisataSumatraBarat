@@ -12,7 +12,7 @@ main{
 
 main div{
     display: grid;
-    grid-template-rows: 45% 45%;
+    grid-template-rows: 45% 45% 10%;
     column-gap: 10px;
     overflow: hidden;
     background-color: #AFC4D3;
@@ -109,4 +109,23 @@ main div{
 #Section h5{
     text-align: justify;
     padding: 5px 10px;
+}
+
+#Nav2 img{
+    width: 100%;
+}
+
+#Section2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+}
+
+#Section2 span{
+    /* display: grid; */
+    /* grid-template-rows: 60% 10%; */
+}
+
+#Section2 img{
+    height: 100%;
 }
