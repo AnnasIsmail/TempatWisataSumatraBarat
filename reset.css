@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font-size: 0;
+    font: inherit;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    /* background-color: rgba(86, 132, 191, 0.85); */
+}

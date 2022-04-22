@@ -1,0 +1,37 @@
+nav{
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(86, 132, 191, 0.85);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(86, 132, 191, 0.3);
+    color: #401005;
+}
+
+nav .judul{
+    margin-left: 5vw;
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+}
+
+nav #Header1{
+    margin-right: 2vw;
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+
+nav #Header1 a{
+    font-weight: 600;
+    font-size: 20px;
+}
+.ganjelan{
+    height: 50px;
+    width: 100%;
+}
