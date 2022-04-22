@@ -17,7 +17,7 @@ nav .judul{
     margin-left: 5vw;
     font-size: 30px;
     font-family: 'Caveat', cursive;
-    font-weight: 700;
+    font-weight: bolder;
 }
 
 nav #Header1{
@@ -29,7 +29,7 @@ nav #Header1{
 
 nav #Header1 a{
     font-weight: 600;
-    font-size: 20px;
+    font-size: 17px;
 }
 .ganjelan{
     height: 50px;

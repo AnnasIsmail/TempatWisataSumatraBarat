@@ -15,7 +15,8 @@ main div{
     grid-template-columns: 80% 20%;
     column-gap: 10px;
     overflow: hidden;
-    background-color: aqua;
+    background-color: #AFC4D3;
+    color: #401005;
 }
 
 #Header2{
@@ -26,6 +27,71 @@ main div{
 
 #Header2 img{
     width: 100%;
+    position: relative;
+    top: 0;
+}
+
+#Header2 h1{
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    font-weight: 800;
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    width: 450px;
+    padding: 25px 15px;
+    text-shadow: 4px 5px 10px #342821;
+}
+
+#Nav1{
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 0;
+    grid-template-rows: 50px max-content ;
+    /* height: 100%; */
+}
+
+#Nav1 h1{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+#Nav1 .container-berita{
+    display: flex;
+    flex-direction: column;
+
+    row-gap: 10px;
+    margin-right: 20px;
+    overflow: auto;
+}
+
+#Nav1 .container-berita a{
+    background: rgba(86, 132, 191, 0.85);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(86, 132, 191, 0.3);
+    display: grid;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+#Nav1 .container-berita a img{
+    width: 100%;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 10px;
+}
+
+
+#Nav1 .container-berita a h3{
+    padding: 0px 7px 7px 7px;
+    color: #401005;
+    font-weight: bolder;
+    font-size: 17px;
 }
 
 section{
@@ -40,5 +106,5 @@ section h3{
 
 section h5{
     text-align: justify;
-    padding: 10px;
+    padding: 5px 10px;
 }
