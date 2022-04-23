@@ -111,20 +111,33 @@ main div{
     padding: 5px 10px;
 }
 
+#Nav2{
+    margin: 5px;
+}
+
 #Nav2 img{
     width: 100%;
 }
 
 #Section2{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
 }
 
 #Section2 span{
     font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 #Section2 img{
     height: 100%;
+    border-radius: 50%;
+}
+
+#Section2 h3{
+    font-weight: bold;
+    font-size: 17px;
 }
