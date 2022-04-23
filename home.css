@@ -122,8 +122,7 @@ main div{
 }
 
 #Section2 span{
-    /* display: grid; */
-    /* grid-template-rows: 60% 10%; */
+    font-size: 15px;
 }
 
 #Section2 img{
