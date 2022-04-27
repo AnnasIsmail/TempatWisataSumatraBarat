@@ -126,6 +126,7 @@ main div{
     min-height: 200px;
     background-color: #F2F2F2;
     z-index: 1; 
+    overflow: auto;
 }
 
 #Section h3{
