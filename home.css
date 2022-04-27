@@ -151,11 +151,13 @@ main div{
     z-index: 1; 
 }
 
-#Section2 span{
+#Section2 a{
     font-size: 15px;
     display: flex;
     align-items: center;
     gap: 10px;
+    text-decoration: none;
+    color: #172601;
 }
 
 #Section2 img{

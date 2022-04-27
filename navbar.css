@@ -39,7 +39,8 @@ nav #Header1 a:hover{
 }
 
 .on-page{
-    border-bottom: #172601 3px solid;
+    border-bottom: #F2F2F2 3px solid;
+    color: #F2F2F2 !important;
 }
 
 .ganjelan{
