@@ -5,7 +5,7 @@ main{
     right: 0;
     left: 0;
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 70% 30%;
     grid-row: 10px;
     overflow: hidden;
 }
@@ -15,20 +15,8 @@ main div{
     grid-template-rows: 45% 45% 10%;
     column-gap: 10px;
     overflow: hidden;
-    background-color: #AFC4D3;
-    color: #401005;
-}
-
-#Header2{
-    display: flex;
-    align-items: flex-end;
-    height:inherit;
-}
-
-#Header2 img{
-    width: 100%;
-    position: relative;
-    top: 0;
+    background-color: #F2F2F2;
+    color: #172601;
 }
 
 #Header2 h1{
@@ -44,6 +32,44 @@ main div{
     text-shadow: 4px 5px 10px #342821;
 }
 
+.slideshow{ 
+    z-index: 100; 
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: stretch;
+}
+
+.slideshow img{ 
+    object-fit: cover;
+    object-position: 0% 60%;
+    width: 70%;
+    height: 45%;
+	position: absolute;
+    opacity: 0;
+    animation: slideShowAnimation 25s linear infinite; 
+}
+
+.slideshow img:nth-child(2) { 
+    animation-delay: 5s; 
+}
+.slideshow img:nth-child(3) { 
+    animation-delay: 10s; 
+}
+.slideshow img:nth-child(4) { 
+    animation-delay: 15s; 
+}
+.slideshow img:nth-child(5) { 
+    animation-delay: 20s; 
+}
+
+@keyframes slideShowAnimation { 
+    0% { opacity: 0; animation-timing-function: ease; }
+    5% { opacity: 1; animation-timing-function: ease; }
+    15% { opacity: 1 }
+    25% { opacity: 0 }
+}
+
 #Nav1{
     height: auto;
     display: grid;
@@ -52,6 +78,7 @@ main div{
     grid-template-rows: 50px max-content ;
     height: 100%;
     overflow: auto;
+    z-index: 1; 
 }
 
 #Nav1 h1{
@@ -63,7 +90,6 @@ main div{
 #Nav1 .container-berita{
     display: flex;
     flex-direction: column;
-
     row-gap: 10px;
     margin: 0 10px 10px 10px;
     overflow: auto;
@@ -71,7 +97,7 @@ main div{
 }
 
 #Nav1 .container-berita a{
-    background: rgba(86, 132, 191, 0.85);
+    background: rgba(151, 166, 38, 0.5);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
@@ -91,13 +117,15 @@ main div{
 
 #Nav1 .container-berita a h3{
     padding: 0px 7px 7px 7px;
-    color: #401005;
+    color: #172601;
     font-weight: bolder;
     text-align: justify;
 }
 
 #Section{
     min-height: 200px;
+    background-color: #F2F2F2;
+    z-index: 1; 
 }
 
 #Section h3{
@@ -113,16 +141,14 @@ main div{
 
 #Nav2{
     margin: 5px;
-}
-
-#Nav2 img{
-    width: 100%;
+    z-index: 1; 
 }
 
 #Section2{
     display: flex;
     justify-content: space-around;
     padding: 5px;
+    z-index: 1; 
 }
 
 #Section2 span{
