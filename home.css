@@ -127,6 +127,7 @@ main div{
     background-color: #F2F2F2;
     z-index: 1; 
     overflow: auto;
+    color: #172601;
 }
 
 #Section::-webkit-scrollbar {
@@ -155,6 +156,34 @@ main div{
 #Section h5{
     text-align: justify;
     padding: 5px 10px;
+}
+
+#Section form{
+    padding: 0 10px;
+}
+
+#Section label{
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+#Section input{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.Button{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: none;
+    padding: 10px 0;
+    height: 30px;
+    font-weight: bold;
+}
+
+#Section .Button button{
+    background-color: #9DA65D;
+    border-radius: 5px;
 }
 
 #Nav2{
