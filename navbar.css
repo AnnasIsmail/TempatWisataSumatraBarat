@@ -13,11 +13,13 @@ nav{
     z-index: 10;
 }
 
-nav .judul{
+nav .judul a{
     margin-left: 5vw;
     font-size: 30px;
     font-family: 'Caveat', cursive;
     font-weight: bolder;
+    text-decoration: none;
+    color: #172601;
 }
 
 nav #Header1{
