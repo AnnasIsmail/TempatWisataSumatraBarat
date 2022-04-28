@@ -49,3 +49,29 @@ nav #Header1 a:hover{
     height: 50px;
     width: 100%;
 }
+
+.responsive{
+    padding: 10px;
+    box-sizing: border-box;
+    visibility: hidden;
+    position: absolute;
+    padding-right: 20px;
+}
+
+.responsive img{
+    height: 50px;
+}
+
+@media screen and (max-width : 745px) {
+    .responsive{
+        visibility: visible;
+        position: static;
+    }
+
+    #Header1{
+        visibility: hidden;
+        position: absolute;
+    }
+
+
+}
