@@ -21,7 +21,7 @@ main div{
 
 #Header2 h1{
     position: absolute;
-    z-index: 10;
+    z-index: 5;
     top: 0;
     font-weight: 800;
     font-size: 35px;
@@ -176,8 +176,7 @@ main div{
 
 
 #image-map{
-    object-fit: cover;
-    object-position: 0% 20%;
+    margin: -20px 0 0 -60px ;
 }
 
 #Section2{
@@ -205,6 +204,27 @@ main div{
     font-weight: bold;
     font-size: 17px;
 }
+    
+@media screen and (max-width : 1145px) {
+    #image-map{
+        margin: -20px 0 0 -120px ;
+    }
+    
+}
+
+@media screen and (max-width : 925px) {
+    #image-map{
+        margin: -20px 0 0 -150px ;
+    }
+    
+}
+
+@media screen and (max-width : 825px) {
+    #image-map{
+        margin: -20px 0 0 -180px ;
+    }
+    
+}
 
 @media screen and (max-width : 745px) {
     #Nav1 h3 ,#Section2 h3{
@@ -213,12 +233,41 @@ main div{
 
 }
 
-@media screen and (max-width : 499px) {
+@media screen and (max-width : 520px) {
+    #Section2{
+        width: 100%;
+        height: 10%;
+        position: absolute;
+        bottom: -1%;
+    }
+
     #Nav1 h3 ,#Section2 h3{
-        font-size: 9px;
+        font-size: 10px;
+    }
+
+    #Section2 img{
+        height: 50%;
     }
 
     #Header2 h1{
+        font-size: 20px;
+        width: 200px;
+    }
+
+    main{
+        grid-template-columns: 60% 40%;
+    }
+
+    .slideshow img{
+        width: 60%;
+        object-position: 40% 60%;
+    }
+
+    #Nav1{
+        grid-template-rows: 30px max-content ;
+    }
+
+    #Nav1 h1{
         font-size: 15px;
     }
 }
